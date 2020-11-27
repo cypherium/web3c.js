@@ -1,0 +1,62 @@
+{
+  "name": "web3c",
+  "namespace": "cypherium",
+  "version": "0.17.0-alpha",
+  "description": "Cypherium Compatible JavaScript API",
+  "main": [
+    "./dist/web3c.js",
+    "./dist/web3c.min.js"
+  ],
+  "dependencies": {
+    "bignumber.js": ">=2.0.0",
+    "crypto-js": "~3.1.4"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/cypherium/web3c.js.git"
+  },
+  "homepage": "https://github.com/cypherium/web3c.js",
+  "bugs": {
+    "url": "https://github.com/cypherium/web3c.js/issues"
+  },
+  "keywords": [
+    "cypherium",
+    "javascript",
+    "API"
+  ],
+  "authors": [
+    {
+      "name": "Marek Kotewicz",
+      "email": "marek@cphdev.com",
+      "homepage": "https://github.com/debris"
+    },
+    {
+      "name": "Marian Oancea",
+      "email": "marian@cphdev.com",
+      "homepage": "https://github.com/cubedro"
+    },
+    {
+      "name": "Fabian Vogelsteller",
+      "email": "fabian@cphdev.com",
+      "homepage": "https://github.com/frozeman"
+    }
+  ],
+  "license": "LGPL-3.0",
+  "ignore": [
+    "example",
+    "lib",
+    "node_modules",
+    "package.json",
+    "package.js",
+    ".versions",
+    ".bowerrc",
+    ".editorconfig",
+    ".gitignore",
+    ".jshintrc",
+    ".npmignore",
+    ".travis.yml",
+    "gulpfile.js",
+    "index.js",
+    "**/*.txt"
+  ]
+}

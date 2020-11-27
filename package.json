@@ -1,0 +1,93 @@
+{
+  "_args": [
+    [
+      "web3c@0.10.0"
+    ]
+  ],
+  "_from": "@cypherium/web3c@^0.10.0",
+  "_inBundle": false,
+  "_integrity": "sha512-TBMU3srrxcqwL2jABXmvpnjXc5nIn0XN93SO+Yt+/3+mvOuDD9B9X0VKsO6CxFRttb2FVaJotynaMHkDSRSNlA==",
+  "_location": "/@cypherium/web3c",
+  "_phantomChildren": {},
+  "_requested": {
+    "type": "range",
+    "registry": true,
+    "raw": "@cypherium/web3c@^0.10.0",
+    "name": "@cypherium/web3c",
+    "escapedName": "@cypherium%2fweb3c",
+    "scope": "@cypherium",
+    "rawSpec": "^0.10.0",
+    "saveSpec": null,
+    "fetchSpec": "^0.10.0"
+  },
+  "_requiredBy": [
+    "#USER",
+    "/"
+  ],
+  "_resolved": "https://registry.npmjs.org/@cypherium/web3c/-/web3c-0.10.0.tgz",
+  "_shasum": "ea919793a01fd135735dc1342daa13ec37095874",
+  "_spec": "@cypherium/web3c@^0.10.0",
+  "_where": "/Users/cypher01/go/src/github.com/cypherium/walletappbasecphn",
+  "author": "cphdev.com",
+  "browser": {
+    "xmlhttprequest": "./lib/utils/browser-xhr.js"
+  },
+  "bugs": {
+    "url": "https://github.com/cypherium/web3c.js/issues"
+  },
+  "dependencies": {
+    "bignumber.js": "git+https://github.com/frozeman/bignumber.js-nolookahead.git",
+    "crypto-js": "^3.1.4",
+    "module": "^1.2.5",
+    "utf8": "^2.1.1",
+    "xhr2": "*",
+    "xmlhttprequest": "*"
+  },
+  "deprecated": false,
+  "description": "Cypherium JavaScript API, middleware to talk to a cypherium node over RPC",
+  "devDependencies": {
+    "bower": ">=1.4.1",
+    "browserify": "^16.5.2",
+    "chai": "^3.0.0",
+    "coveralls": "^3.0.4",
+    "del": ">=2.0.2",
+    "exorcist": "^0.4.0",
+    "gulp": "^3.9.1",
+    "gulp-jshint": ">=1.5.0",
+    "gulp-rename": ">=1.2.0",
+    "gulp-replace": "^0.5.3",
+    "gulp-streamify": "0.0.5",
+    "gulp-uglify": ">=1.2.0",
+    "istanbul": "^0.4.4",
+    "jshint": "^2.10.2",
+    "mocha": ">=2.3.3",
+    "sandboxed-module": "^2.0.2",
+    "vinyl-source-stream": "^1.1.0"
+  },
+  "directories": {
+    "example": "example",
+    "lib": "lib"
+  },
+  "homepage": "https://github.com/cypherium/web3c.js",
+  "keywords": [
+    "cypherium",
+    "javascript",
+    "API"
+  ],
+  "license": "LGPL-3.0",
+  "main": "./index.js",
+  "name": "@cypherium/web3c",
+  "namespace": "cypherium",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/cypherium/web3c.js.git"
+  },
+  "scripts": {
+    "build": "gulp",
+    "lint": "jshint *.js lib",
+    "test": "mocha; jshint *.js lib",
+    "test-coveralls": "istanbul cover _mocha -- -R spec && cat coverage/lcov.info | coveralls --verbose",
+    "watch": "gulp watch"
+  },
+  "version": "0.10.3"
+}
