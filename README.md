@@ -1,8 +1,6 @@
 
 # web3c.js - Cypherium JavaScript API
 
-[![Gitter][gitter-image]][gitter-url] [![StackExchange][stackexchange-image]][stackexchange-url] [![NPM Package Version][npm-image-version]][npm-url] [![NPM Package Downloads][npm-image-downloads]][npm-url] [![Build Status][actions-image]][actions-url] [![Dev Dependency Status][deps-dev-image]][deps-dev-url] [![Coverage Status][coveralls-image]][coveralls-url] [![Lerna][lerna-image]][lerna-url] [![Netlify Status][netlify-image]][netlify-url]
-
 You need to run a local [Cypherium](https://github.com/cypherium/cypherBFTBin.git) node or remote `https://pubnodes.cypherium.io` to use this library.
 
 Please read the [documentation][https://github.com/cypherium/cypherBFTBin/blob/main/doc/cypherium-rpc-api.docx] for more.
