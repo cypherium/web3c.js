@@ -81,7 +81,7 @@ If you are using the types in a `commonjs` module, like in a Node app, you just 
 
 ### Connect to public nodes
 
-```connect to pubnodes.cypherium.io
+```js
 import Web3c from '@cypherium/web3c';
 web3c = new Web3c(new Web3c.providers.HttpProvider('https://pubnodes.cypherium.io');
 ```
