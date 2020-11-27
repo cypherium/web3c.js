@@ -3,7 +3,7 @@
 
 You need to run a local [Cypherium](https://github.com/cypherium/cypherBFTBin.git) node or remote `https://pubnodes.cypherium.io` to use this library.
 
-Please read the [documentation][https://github.com/cypherium/cypherBFTBin/blob/main/doc/cypherium-rpc-api.docx] for more.
+Please read the [documentation](https://github.com/cypherium/cypherBFTBin/blob/main/doc/cypherium-rpc-api.docx) for more.
 
 ## Installation
 
